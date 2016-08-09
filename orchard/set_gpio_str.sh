@@ -1,4 +1,0 @@
-#!/bin/sh
-
-sudo devmem2 0x20e0668 w 0x1b010
-sudo devmem2 0x20e066c w 0x1b010
