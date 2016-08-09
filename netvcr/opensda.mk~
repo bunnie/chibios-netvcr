@@ -1,0 +1,26 @@
+OPENSDASRC += \
+                 $(OPENSDA)/source/FlashInit.c \
+                 $(OPENSDA)/source/FlashProgram.c \
+                 $(OPENSDA)/source/FlashProgramCheck.c \
+                 $(OPENSDA)/source/FlashProgramOnce.c \
+                 $(OPENSDA)/source/FlashProgramSection.c \
+                 $(OPENSDA)/source/FlashReadOnce.c \
+                 $(OPENSDA)/source/FlashReadResource.c \
+                 $(OPENSDA)/source/FlashVerifyBlock.c \
+                 $(OPENSDA)/source/FlashVerifyAllBlock.c \
+                 $(OPENSDA)/source/FlashVerifySection.c \
+                 $(OPENSDA)/source/FlashEraseAllBlock.c \
+                 $(OPENSDA)/source/FlashEraseBlock.c \
+                 $(OPENSDA)/source/FlashEraseResume.c \
+                 $(OPENSDA)/source/FlashEraseSector.c \
+                 $(OPENSDA)/source/FlashEraseSuspend.c \
+                 $(OPENSDA)/source/FlashGetSecurityState.c \
+                 $(OPENSDA)/source/FlashSecurityBypass.c \
+                 $(OPENSDA)/source/FlashCheckSum.c \
+                 $(OPENSDA)/source/FlashCommandSequence.c \
+                 $(OPENSDA)/source/PFlashGetProtection.c \
+                 $(OPENSDA)/source/PFlashSetProtection.c \
+                 $(OPENSDA)/source/CopyToRam.c \
+
+OPENSDAINC += $(OPENSDA)/include
+

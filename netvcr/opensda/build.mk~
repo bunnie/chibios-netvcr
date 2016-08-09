@@ -1,0 +1,6 @@
+
+OPENSDASRC += \
+                 $(OPENSDA)/bootloader/Common/src/version.c \
+
+OPENSDAINC += $(OPENSDA)/bootloader/Common/inc
+
